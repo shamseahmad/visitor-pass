@@ -1,11 +1,11 @@
 $(document).ready(function() {
     Webcam.set({
-        width: 240,
-        height: 300,
+        width: 250,
+        height: 600,
         image_format: 'jpeg',
         jpeg_quality: 90,
-		dest_width: 200,
-		dest_height: 200,
+		dest_width: 250,
+		dest_height: 600,
     });
 
     $('#accesscamera').on('click', function() {

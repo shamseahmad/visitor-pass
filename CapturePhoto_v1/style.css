@@ -36148,10 +36148,14 @@ a.u-link.u-text-hover-grey-90:hover {
             color: #18305e !important;
         }
 
-        .u-body
-        {
         
         
+@media print {
+
+    .no-print{
+              display : none !important;
+              }
+              }
         
         
         
@@ -36719,3 +36723,32 @@ a.u-link.u-text-hover-grey-90:hover {
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
+
+
+.no1{
+  position: absolute;
+  top: 660px;
+  text-align: center;
+}
+.no2{
+  position: absolute;
+  left: 42.5%;
+  top: 700px;
+}
+.no3{
+  position: absolute;
+  left: 46%;
+  top: 800px;
+}
+
+.frm_pic{
+  position: absolute;
+  left: 41.2%;
+  top:300px;
+}
+
+.d_tmp{
+  position: absolute;
+  left: 200px;
+  top:500px;
+}
